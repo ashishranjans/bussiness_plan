@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #8CE2FF
+;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+/* Pricing Section */
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    background: #fff;
+}
+
+.card {
+	background-color:#46D0FF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.price {
+    font-size: 2rem;
+    color: #333;
+}
+
+.price span {
+    font-size: 1rem;
+    color: #777;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Testimonials Section */
+.testimonials {
+	
+    background: #46D0FF;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 1rem auto;
+    width: 60%;
+    font-style: italic;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 2rem 1rem;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.question {
+    margin: 1rem 0;
+}
+
+.question h3 {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.question p {
+    font-size: 1rem;
+    color: #0000FF;
+    margin: 0.5rem 0 0 1rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
